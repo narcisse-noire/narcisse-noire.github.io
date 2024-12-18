@@ -1,2 +1,10 @@
-body {background-color : black ; 
+body {
+     background-color: black ; 
+     margin: 0;
      }
+img {
+     width: 100%;
+     height: auto;
+     display: block;
+}
+

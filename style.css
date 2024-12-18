@@ -1,13 +1,4 @@
 body {
   background-color: black;
   color: white;
-
- #navbar {
-    background-color : black;
-    position : fixed;
-    top : 50px;
-    width : 100%;
-    transition : top 0.3s;
- }
-
 }

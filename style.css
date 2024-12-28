@@ -1,13 +1,50 @@
+/* Style de la page */
 body {
-     background-color: black ; 
+     background-color: black; 
      margin: 0;
+     font-family: Futura;
      }
+
+/* GIF */
 img {
      width: 100%;
      height: auto;
      display: block;
 }
 
+/* Menu horizontal */
 menu {
      display: flex; 
+     justify-content: center;
+     background-color: #333333;
+     padding: 10px 0; 
+     position: relative;
+     width: 100%; 
+     z-index: 1000;
+     transition: position 0.3s ease; 
 }
+
+/* Liens dans le menu */
+menu a {
+     color: white;
+     text-ddecoration: none; 
+     padding: 10px 20px;
+}
+
+menu a:hover {
+     background-color: #57;
+}
+
+/* Contenu après le menu */
+
+content {
+     padding: 20px;
+     height: 2000px;  
+}
+
+/* Menu fixé */
+menu.fixed {
+     position: fixed;
+     top: 0;
+}
+

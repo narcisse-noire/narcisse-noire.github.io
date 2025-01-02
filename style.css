@@ -44,8 +44,8 @@ content {
 
 /* Menu fixé */
 menu.fixed {
-     background-color: black ;
-     color: white; 
+     color: white;
+     background-color: black ; 
      position: fixed;
      top: 0;
 }

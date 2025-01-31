@@ -18,7 +18,7 @@ menu {
      display: flex; 
      justify-content: center;
      background-color: #333333;
-     text-color: white;
+     text-color: FFFFFF;
      padding: 10px 0; 
      position: relative;
      width: 100%; 
@@ -53,7 +53,7 @@ menu.fixed {
 }
 
 creations {
-     color-text: FFFFFF;
+     color-text: #00FF00;
 }
 
 footer {

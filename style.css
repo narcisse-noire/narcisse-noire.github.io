@@ -53,12 +53,12 @@ menu.fixed {
 }
 
 creations {
-     color-text: white;
+     color-text: FFFFFF;
 }
 
 footer {
      position: fixed;
      background-color: black;
-     color: white;
+     color: FFFFFF;
      text-align: center;
 }

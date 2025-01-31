@@ -56,3 +56,9 @@ h1 {
      color: whie;
 }
 
+footer {
+     position: fixed;
+     background-color: black;
+     color: white;
+     text-align: center;
+}

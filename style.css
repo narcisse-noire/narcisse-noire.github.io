@@ -4,10 +4,10 @@ html {
 }
 
 body {
-     background-color: black; 
      margin: 0;
-     font-family: Futura;
-     font-color: white;
+     padding-top : 80px;
+     font-family : sans-serif;
+     background : #f5f5f5;
      }
 
 /* GIF */
@@ -17,47 +17,19 @@ img {
      display: block;
 }
 
-/* Menu horizontal */
-menu {
-     display: flex; 
-     justify-content: center;
-     background-color: #333333;
-     text-color: FFFFFF;
-     padding: 10px 0; 
-     position: relative;
-     width: 100%; 
-     z-index: 1000;
-     transition: position 0.3s ease; 
-}
-
-/* Liens dans le menu */
-menu a {
-     color: white;
-     text-decoration: none; 
-     padding: 10px 20px;
-}
-
-menu a:hover {
-     background-color: #57;
-}
-
-/* Contenu après le menu */
-
-content {
-     padding: 20px;
-     height: 2000px;  
-}
-
-/* Menu fixé */
-menu.fixed {
-     color: white;
-     background-color: black ; 
-     position: fixed;
-     top: 0;
-}
-
-creations {
-     color-text: #00FF00;
+/* Menu */
+.menu {
+     position : fixed; 
+     top : 0;
+     left : 0;
+     width : 100%;
+     background-color : black;
+     color : white;
+     display : flex; 
+     justify-content : center; 
+     gap : 2rem;
+     padding : 1rem;
+     z-index : 1000;
 }
 
 footer {

@@ -56,7 +56,36 @@ h1 {
       font-weight : uppercase ;
       margin-top : 4rem ;
 }
-
+#about {
+     padding : 4rem 2rem ;
+     color : white ;
+     background : black ;
+}
+     .subtitle {
+          font-size : 1.2rem ;
+          font-style : italic ; 
+          margin-bottom : 1rem ;
+     }
+     .about container {
+          display : flex ; 
+          flex-direction : row ; 
+          gap : 2rem ; 
+          align-items : center ; 
+          justify-content : space-between ; 
+          flex-wrap : wrap ; 
+     }
+     .about-text {
+          flex : 1 ; 
+          min-width : 250px ;
+     }
+     .about-photo img {
+          width : 250px ; 
+          height : 250px ; 
+          object-fit : cover ;
+          border-radius : 50% ; 
+          border : 2px solid white ; 
+     }
+     
 footer {
      position: fixed;
      bottom: 0;

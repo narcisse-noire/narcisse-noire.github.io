@@ -54,7 +54,7 @@ img {
           text-decoration : none ; 
           font-family : Helvetica, sans-serif;
 }
-.menu a : hover {
+.menu a: hover {
      text-decoration : underline;
 }
 
@@ -74,7 +74,7 @@ h1 {
           font-style : italic ; 
           margin-bottom : 1rem ;
      }
-     .about container {
+     .about-container {
           display : flex ; 
           flex-direction : row ; 
           gap : 2rem ; 

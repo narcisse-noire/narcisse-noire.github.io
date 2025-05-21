@@ -93,6 +93,36 @@ h1 {
           border-radius : 50% ; 
           border : 2px solid white ; 
      }
+
+     .contact-icons {
+          display flex;
+          justify-content: center;
+          gap: 2rem;
+          margin: 2rem 0;
+     }
+
+     .contact-icons a img {
+          width: 40px;
+          height: 40px;
+          transitions: transform 0.3s ease ;
+     }
+
+     .contact-icons a:hover img {
+          transform: scale (1.1);
+     }
+
+     .contact-icons a.disabled {
+          pointer-events: none;
+          opacity: 0.4;
+          cursor: default;
+     }
+
+     .coming-soon {
+          text-align: center;
+          font-size: 0.9rem;
+          font-style: italic;
+          color: #aaa;
+     }
      
 footer {
      position: fixed;

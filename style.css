@@ -95,7 +95,7 @@ h1 {
      }
 
      .contact-icons {
-          display flex;
+          display: flex;
           justify-content: center;
           gap: 2rem;
           margin: 2rem 0;
@@ -104,11 +104,11 @@ h1 {
      .contact-icons a img {
           width: 40px;
           height: 40px;
-          transitions: transform 0.3s ease ;
+          transition: transform 0.3s ease ;
      }
 
      .contact-icons a:hover img {
-          transform: scale (1.1);
+          transform: scale(1.1);
      }
 
      .contact-icons a.disabled {

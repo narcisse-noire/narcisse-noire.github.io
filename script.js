@@ -1,4 +1,12 @@
 //Sélection des éléments
+const modal = 
+document.getElementById("modal");
+const modalImage =
+document.getElementById("modal-image");
+const modalDescription = 
+document.getElementById("modal-description");
+const closeButton =
+document.querySelector(".close-button");
 
 // Fonction pour ouvrir la modal
 

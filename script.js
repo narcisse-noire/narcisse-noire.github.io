@@ -11,6 +11,9 @@ document.querySelector(".close-button");
 // Fonction pour ouvrir la modal
 
 // Fonction pour fermer la modal
+function closeModal() {
+  modal.style.display = "none";
+}
 
 // Evènement de fermeture lors du clic sur le bouton fermeture
 

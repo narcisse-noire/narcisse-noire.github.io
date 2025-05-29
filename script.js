@@ -20,7 +20,14 @@ function closeModal() {
 }
 
 // Evènement de fermeture lors du clic sur le bouton fermeture
+closeButton.addEventListener("click", closeModal)
 
 //Evènement de fermeture lors du clic en dehors de la modal
+window.addEventListener("click", function(event) {
+  if (event.target === modal) {
+    closeModal();
+  }
+});
+}
 
 // Ajout des évènements de clic sur les miniatures 

@@ -31,3 +31,11 @@ window.addEventListener("click", function(event) {
 }
 
 // Ajout des évènements de clic sur les miniatures 
+const projectItems = 
+document.querySelectorAll(".project-item");
+projectItems.forEach(item => { 
+item.addEventListener("click",function(event).preventDefault();
+const description = this.querySelector(".project-title").textContent;
+openModal(imageSrc,description);
+  });
+});

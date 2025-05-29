@@ -9,7 +9,11 @@ const closeButton =
 document.querySelector(".close-button");
 
 // Fonction pour ouvrir la modal
-
+function openModal (imageSrc, description) {
+  modal.style.display = "block";
+  modalImage.src = imageSrc;
+  modalDescription.textContent = description;
+}
 // Fonction pour fermer la modal
 function closeModal() {
   modal.style.display = "none";

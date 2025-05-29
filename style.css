@@ -64,6 +64,47 @@ h1 {
       font-weight : uppercase ;
       margin-top : 4rem ;
 }
+
+#creations {
+     padding: 40px 20px;
+     background-color: black;
+}
+#creations h1 {
+     font-size: 2em;
+     margin-bottom: 1rem;
+}
+     .moodboard {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+          gap: 1rem;
+     }
+
+     .mood-item {
+          overflow: hidden; 
+          border-radius: 10px;
+          transition: transform 0.3s ease;
+          cursor: pointer;
+     }
+     
+     .mood-item img {
+          display: block;
+          width: 100%;
+          height: auto; 
+          object-fit: cover;
+     }
+
+     .mood-item:hover {
+          transform: scale(1.05);
+     }
+
+     .mood-item.large {
+          grid-column: span 2;
+     }
+
+     .mood-item.small {
+          grid-column: span 1;
+     }
+     
 #about {
      padding : 4rem 2rem ;
      color : white ;
